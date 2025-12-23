@@ -1,0 +1,1862 @@
+[
+  {
+    "category": "Computer-aided manufacturing (CAM)",
+    "products": [
+      {
+        "productName": "NX X Manufacturing Advanced",
+        "description": "Program freeform parts with advanced CAD/CAM and collaboration tools powered by cloud technologies.",
+        "price": "₹835,350.14INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Manufacturing Essentials",
+        "description": "Visualize 3D part data & CAM setups powered by the cloud & extend capabilities with add-ons.",
+        "price": "₹221,551.57INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Manufacturing Premium",
+        "description": "Machine complex parts with extensive CAD/CAM & collaboration tools powered by cloud technologies.",
+        "price": "₹1,046,831.19INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Manufacturing Standard",
+        "description": "Automate prismatic part programming using CAD/CAM and tools powered by cloud technologies.",
+        "price": "₹623,869.09INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Manufacturing Value Based Licensing (25pk)",
+        "description": "Expand the capabilities of your solution with NX X Manufacturing Value Based Licensing (25pk).",
+        "price": "₹462,086.09INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Manufacturing Value Based Licensing (50pk)",
+        "description": "Expand the capabilities of your solution with NX X Manufacturing Value Based Licensing (50pk).",
+        "price": "₹923,306.11INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Essentials",
+        "description": "Browser-based essential NX CAD, CAM and CAE tools. Create and edit NX data with zero translation.",
+        "price": "₹192,341.09INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Capital X Panel Designer Essentials",
+        "description": "An affordable, yet powerful, cloud electrical design tool.",
+        "price": "₹98,808.94INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Capital X Panel Designer Essentials",
+        "description": "An affordable, yet powerful, cloud electrical design tool.",
+        "price": "₹98,808.94INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Capital X Panel Designer Standard",
+        "description": "One subscription, two platforms: On-premises for offline, single-user work, cloud for collaboration.",
+        "price": "₹154,326.04INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "PADS Professional App Suite",
+        "description": "For engineers and designers needing an integrated productivity solution to extend PADS Professional.",
+        "price": "₹68,749.35INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "PADS Professional Premium",
+        "description": "PADS Professional’s affordable, end-to-end PCB design solution with integrated cloud applications.",
+        "price": "₹515,009.51INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "PADS Professional Premium DFM",
+        "description": "Everything you get with PADS Professional Premium, with integrated DFM powered by PCBFlow.",
+        "price": "₹559,882.88INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Plant Simulation X Advanced",
+        "description": "Model, simulate, explore, analyze and optimize production and logistics at all levels of planning.",
+        "price": "₹2,077,838.22INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Plant Simulation X Essentials",
+        "description": "Create, analyze and optimize 3D simulation models of production systems up to 500 objects in size.",
+        "price": "₹416,611.78INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Plant Simulation X Runtime",
+        "description": "Run simulations created with Plant Simulation X authoring tools to optimize production systems.",
+        "price": "₹207,783.82INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Plant Simulation X Standard",
+        "description": "Create, analyze and optimize 3D simulation models of production systems up to 4000 objects in size.",
+        "price": "₹1,043,095.67INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Plant Simulation X Value Stream Mapping",
+        "description": "Use a dedicated object library to simulate value stream maps in Plant Simulation software models.",
+        "price": "₹312,197.80INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Augmented Reality (DTA)",
+        "description": "Use augmented reality to analyze the alignment of Process Simulate studies to real world twins.",
+        "price": "₹767,442.76INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Automatic Path Planner",
+        "description": "Create collision-free paths automatically for product assembly or disassembly and robotic welding.",
+        "price": "₹770,575.18INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Cables",
+        "description": "Define, simulate and validate cables for robots in a realistic fashion during robot motion planning.",
+        "price": "₹384,243.45INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Essentials",
+        "description": "Model and simulate manufacturing processes in a dynamic 3D environment to enable virtual validation.",
+        "price": "₹2,079,926.50INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Human Advanced",
+        "description": "Use motion capture and virtual reality to conduct in-depth ergonomics analysis of manual workplaces.",
+        "price": "₹3,379,880.56INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Human Standard",
+        "description": "Conduct 3D task simulation and ergonomics analysis to design and optimize human-centered operations.",
+        "price": "₹2,541,436.30INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Point Cloud",
+        "description": "Load and segment point cloud scan data while maintaining visual quality and accuracy for simulation.",
+        "price": "₹769,531.04INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Robotics Advanced",
+        "description": "Leverage a complete virtual commissioning environment to validate the build of workcells and lines.",
+        "price": "₹4,549,317.15INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Robotics Standard",
+        "description": "Download, upload and optimize robotic programs with a complete set of offline programming tools.",
+        "price": "₹3,506,221.48INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Safety Robots Manager",
+        "description": "Design, configure and manage safety zones for robots during a feasibility study in Process Simulate.",
+        "price": "₹363,360.65INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Virtual Reality",
+        "description": "Load Process Simulate studies into virtual reality (VR) environments to conduct process reviews.",
+        "price": "₹433,318.02INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Tecnomatix Connector for NVIDIA Omniverse",
+        "description": "Transfer geometry and simulations from Tecnomatix software into NVIDIA Omniverse.",
+        "price": "₹421,832.48INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Design Advanced",
+        "description": "Boost design efficiency and quality through the enhanced design capabilities in NX X Design Advanced",
+        "price": "₹843,809.38INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Design Premium",
+        "description": "Overcome the most complex design challenges through the advanced capabilities in NX X Design Premium",
+        "price": "₹1,076,972.27INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Design Standard",
+        "description": "Create and edit designs of typical 3D parts and assemblies and more with NX X Design Standard.",
+        "price": "₹649,508.65INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Essentials",
+        "description": "Browser-based essential NX CAD, CAM and CAE tools. Create and edit NX data with zero translation.",
+        "price": "₹192,341.09INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Value Based Licensing (100 count)",
+        "description": "NX X tokens provide a flexible and cost effective solution for running NX X add-on modules.",
+        "price": "₹1,941,396.02INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Value Based Licensing (50 count)",
+        "description": "NX X tokens provide a flexible and cost effective solution for running NX X add-on modules.",
+        "price": "₹969,469.40INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Siemens Mechanical Design Bundle",
+        "description": "Scale your mechanical design solution and future-proof your business with flexible software.",
+        "price": "₹1,250,764.07INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Solid Edge Design and Drafting XaaS",
+        "description": "Get started quickly with part & assembly design, automated drawings, basic animation and rendering.",
+        "price": "₹92,823.56INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Solid Edge X Advanced",
+        "description": "Solid Edge X Standard + reverse engineering, subdivision modeling & generative design.",
+        "price": "₹261,890.41INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Solid Edge X Premium",
+        "description": "Solid Edge X Advanced + motion & stress simulation, point cloud visualization & electrical routing.",
+        "price": "₹375,344.73INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Solid Edge X Standard",
+        "description": "Design parts and assemblies, create drawings, and design sheet metal parts, frames and weldments.",
+        "price": "₹210,835.96INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Solid Edge X Value-Based Licensing 10 pk",
+        "description": "Extend Solid Edge X capabilities with a 10 pack of tokens, allowing access to add-on applications.",
+        "price": "₹178,995.40INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Solid Edge X Value-Based Licensing 25 pk",
+        "description": "Extend Solid Edge X capabilities with a 25 pack of tokens, allowing access to add-on applications.",
+        "price": "₹447,488.49INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Solid Edge X Value-Based Licensing 50 pk",
+        "description": "Extend Solid Edge X capabilities with a 50 pack of tokens, allowing access to add-on applications.",
+        "price": "₹894,976.98INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate Collaborate",
+        "description": "Visualize, review and analyze Process Simulate studies with innovative cloud-based 3D collaboration.",
+        "price": "₹166,541.21INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Robotics Advanced",
+        "description": "Leverage a complete virtual commissioning environment to validate the build of workcells and lines.",
+        "price": "₹4,549,317.15INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Robotics Standard",
+        "description": "Download, upload and optimize robotic programs with a complete set of offline programming tools.",
+        "price": "₹3,506,221.48INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Simcenter 3D Structures Essentials",
+        "description": "Achieve faster simulation processes to rapidly improve your design's structural performance.",
+        "price": "₹2,367,022.08INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Simcenter Cloud HPC - 1,000 Credits",
+        "description": "Access Simcenter through a web browser and work without constraints on desktop and HPC environments.",
+        "price": "₹96,593.50INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Simcenter Cloud HPC - 100,000 Credits",
+        "description": "Access Simcenter through a web browser and work without constraints on desktop and HPC environments.",
+        "price": "₹6,800,224.44INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Simcenter Cloud HPC - 50,000 Credits",
+        "description": "Access Simcenter through a web browser and work without constraints on desktop and HPC environments.",
+        "price": "₹3,885,843.98INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Simcenter Femap Standalone",
+        "description": "Create, edit, and evaluate finite element models of complex products or systems.",
+        "price": "₹1,033,398.16INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Simcenter Femap/Nastran",
+        "description": "Perform basic structural simulation with Simcenter Femap and Simcenter Nastran Basic.",
+        "price": "₹1,411,664.14INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Simcenter Femap/Nastran Dynamic Response",
+        "description": "Perform basic structural and dynamic simulation with Simcenter Femap and Simcenter Nastran.",
+        "price": "₹1,712,461.36INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year"
+        ],
+        "defaultQuantity": "1"
+      }
+    ]
+  },
+  {
+    "category": "Computer-aided manufacturing (CAM)",
+    "products": [
+      {
+        "productName": "NX X Manufacturing Advanced",
+        "description": "Program freeform parts with advanced CAD/CAM and collaboration tools powered by cloud technologies.",
+        "price": "₹835,350.14INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Manufacturing Essentials",
+        "description": "Visualize 3D part data & CAM setups powered by the cloud & extend capabilities with add-ons.",
+        "price": "₹221,551.57INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Manufacturing Premium",
+        "description": "Machine complex parts with extensive CAD/CAM & collaboration tools powered by cloud technologies.",
+        "price": "₹1,046,831.19INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Manufacturing Standard",
+        "description": "Automate prismatic part programming using CAD/CAM and tools powered by cloud technologies.",
+        "price": "₹623,869.09INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Manufacturing Value Based Licensing (25pk)",
+        "description": "Expand the capabilities of your solution with NX X Manufacturing Value Based Licensing (25pk).",
+        "price": "₹462,086.09INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Manufacturing Value Based Licensing (50pk)",
+        "description": "Expand the capabilities of your solution with NX X Manufacturing Value Based Licensing (50pk).",
+        "price": "₹923,306.11INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Essentials",
+        "description": "Browser-based essential NX CAD, CAM and CAE tools. Create and edit NX data with zero translation.",
+        "price": "₹192,341.09INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Capital X Panel Designer Essentials",
+        "description": "An affordable, yet powerful, cloud electrical design tool.",
+        "price": "₹98,808.94INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Capital X Panel Designer Essentials",
+        "description": "An affordable, yet powerful, cloud electrical design tool.",
+        "price": "₹98,808.94INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Capital X Panel Designer Standard",
+        "description": "One subscription, two platforms: On-premises for offline, single-user work, cloud for collaboration.",
+        "price": "₹154,326.04INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "PADS Professional App Suite",
+        "description": "For engineers and designers needing an integrated productivity solution to extend PADS Professional.",
+        "price": "₹68,749.35INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "PADS Professional Premium",
+        "description": "PADS Professional’s affordable, end-to-end PCB design solution with integrated cloud applications.",
+        "price": "₹515,009.51INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "PADS Professional Premium DFM",
+        "description": "Everything you get with PADS Professional Premium, with integrated DFM powered by PCBFlow.",
+        "price": "₹559,882.88INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Plant Simulation X Advanced",
+        "description": "Model, simulate, explore, analyze and optimize production and logistics at all levels of planning.",
+        "price": "₹2,077,838.22INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Plant Simulation X Essentials",
+        "description": "Create, analyze and optimize 3D simulation models of production systems up to 500 objects in size.",
+        "price": "₹416,611.78INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Plant Simulation X Runtime",
+        "description": "Run simulations created with Plant Simulation X authoring tools to optimize production systems.",
+        "price": "₹207,783.82INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Plant Simulation X Standard",
+        "description": "Create, analyze and optimize 3D simulation models of production systems up to 4000 objects in size.",
+        "price": "₹1,043,095.67INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Plant Simulation X Value Stream Mapping",
+        "description": "Use a dedicated object library to simulate value stream maps in Plant Simulation software models.",
+        "price": "₹312,197.80INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Augmented Reality (DTA)",
+        "description": "Use augmented reality to analyze the alignment of Process Simulate studies to real world twins.",
+        "price": "₹767,442.76INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Automatic Path Planner",
+        "description": "Create collision-free paths automatically for product assembly or disassembly and robotic welding.",
+        "price": "₹770,575.18INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Cables",
+        "description": "Define, simulate and validate cables for robots in a realistic fashion during robot motion planning.",
+        "price": "₹384,243.45INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Essentials",
+        "description": "Model and simulate manufacturing processes in a dynamic 3D environment to enable virtual validation.",
+        "price": "₹2,079,926.50INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Human Advanced",
+        "description": "Use motion capture and virtual reality to conduct in-depth ergonomics analysis of manual workplaces.",
+        "price": "₹3,379,880.56INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Human Standard",
+        "description": "Conduct 3D task simulation and ergonomics analysis to design and optimize human-centered operations.",
+        "price": "₹2,541,436.30INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Point Cloud",
+        "description": "Load and segment point cloud scan data while maintaining visual quality and accuracy for simulation.",
+        "price": "₹769,531.04INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Robotics Advanced",
+        "description": "Leverage a complete virtual commissioning environment to validate the build of workcells and lines.",
+        "price": "₹4,549,317.15INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Robotics Standard",
+        "description": "Download, upload and optimize robotic programs with a complete set of offline programming tools.",
+        "price": "₹3,506,221.48INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Safety Robots Manager",
+        "description": "Design, configure and manage safety zones for robots during a feasibility study in Process Simulate.",
+        "price": "₹363,360.65INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Virtual Reality",
+        "description": "Load Process Simulate studies into virtual reality (VR) environments to conduct process reviews.",
+        "price": "₹433,318.02INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Tecnomatix Connector for NVIDIA Omniverse",
+        "description": "Transfer geometry and simulations from Tecnomatix software into NVIDIA Omniverse.",
+        "price": "₹421,832.48INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Design Advanced",
+        "description": "Boost design efficiency and quality through the enhanced design capabilities in NX X Design Advanced",
+        "price": "₹843,809.38INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Design Premium",
+        "description": "Overcome the most complex design challenges through the advanced capabilities in NX X Design Premium",
+        "price": "₹1,076,972.27INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Design Standard",
+        "description": "Create and edit designs of typical 3D parts and assemblies and more with NX X Design Standard.",
+        "price": "₹649,508.65INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Essentials",
+        "description": "Browser-based essential NX CAD, CAM and CAE tools. Create and edit NX data with zero translation.",
+        "price": "₹192,341.09INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Value Based Licensing (100 count)",
+        "description": "NX X tokens provide a flexible and cost effective solution for running NX X add-on modules.",
+        "price": "₹1,941,396.02INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Value Based Licensing (50 count)",
+        "description": "NX X tokens provide a flexible and cost effective solution for running NX X add-on modules.",
+        "price": "₹969,469.40INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Siemens Mechanical Design Bundle",
+        "description": "Scale your mechanical design solution and future-proof your business with flexible software.",
+        "price": "₹1,250,764.07INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Solid Edge Design and Drafting XaaS",
+        "description": "Get started quickly with part & assembly design, automated drawings, basic animation and rendering.",
+        "price": "₹92,823.56INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Solid Edge X Advanced",
+        "description": "Solid Edge X Standard + reverse engineering, subdivision modeling & generative design.",
+        "price": "₹261,890.41INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Solid Edge X Premium",
+        "description": "Solid Edge X Advanced + motion & stress simulation, point cloud visualization & electrical routing.",
+        "price": "₹375,344.73INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Solid Edge X Standard",
+        "description": "Design parts and assemblies, create drawings, and design sheet metal parts, frames and weldments.",
+        "price": "₹210,835.96INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Solid Edge X Value-Based Licensing 10 pk",
+        "description": "Extend Solid Edge X capabilities with a 10 pack of tokens, allowing access to add-on applications.",
+        "price": "₹178,995.40INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Solid Edge X Value-Based Licensing 25 pk",
+        "description": "Extend Solid Edge X capabilities with a 25 pack of tokens, allowing access to add-on applications.",
+        "price": "₹447,488.49INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Solid Edge X Value-Based Licensing 50 pk",
+        "description": "Extend Solid Edge X capabilities with a 50 pack of tokens, allowing access to add-on applications.",
+        "price": "₹894,976.98INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate Collaborate",
+        "description": "Visualize, review and analyze Process Simulate studies with innovative cloud-based 3D collaboration.",
+        "price": "₹166,541.21INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Robotics Advanced",
+        "description": "Leverage a complete virtual commissioning environment to validate the build of workcells and lines.",
+        "price": "₹4,549,317.15INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Robotics Standard",
+        "description": "Download, upload and optimize robotic programs with a complete set of offline programming tools.",
+        "price": "₹3,506,221.48INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Simcenter 3D Structures Essentials",
+        "description": "Achieve faster simulation processes to rapidly improve your design's structural performance.",
+        "price": "₹2,367,022.08INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Simcenter Cloud HPC - 1,000 Credits",
+        "description": "Access Simcenter through a web browser and work without constraints on desktop and HPC environments.",
+        "price": "₹96,593.50INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Simcenter Cloud HPC - 100,000 Credits",
+        "description": "Access Simcenter through a web browser and work without constraints on desktop and HPC environments.",
+        "price": "₹6,800,224.44INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Simcenter Cloud HPC - 50,000 Credits",
+        "description": "Access Simcenter through a web browser and work without constraints on desktop and HPC environments.",
+        "price": "₹3,885,843.98INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Simcenter Femap Standalone",
+        "description": "Create, edit, and evaluate finite element models of complex products or systems.",
+        "price": "₹1,033,398.16INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Simcenter Femap/Nastran",
+        "description": "Perform basic structural simulation with Simcenter Femap and Simcenter Nastran Basic.",
+        "price": "₹1,411,664.14INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Simcenter Femap/Nastran Dynamic Response",
+        "description": "Perform basic structural and dynamic simulation with Simcenter Femap and Simcenter Nastran.",
+        "price": "₹1,712,461.36INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year"
+        ],
+        "defaultQuantity": "1"
+      }
+    ]
+  },
+  {
+    "category": "Computer-aided manufacturing (CAM)",
+    "products": [
+      {
+        "productName": "NX X Manufacturing Advanced",
+        "description": "Program freeform parts with advanced CAD/CAM and collaboration tools powered by cloud technologies.",
+        "price": "₹835,350.14INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Manufacturing Essentials",
+        "description": "Visualize 3D part data & CAM setups powered by the cloud & extend capabilities with add-ons.",
+        "price": "₹221,551.57INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Manufacturing Premium",
+        "description": "Machine complex parts with extensive CAD/CAM & collaboration tools powered by cloud technologies.",
+        "price": "₹1,046,831.19INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Manufacturing Standard",
+        "description": "Automate prismatic part programming using CAD/CAM and tools powered by cloud technologies.",
+        "price": "₹623,869.09INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Manufacturing Value Based Licensing (25pk)",
+        "description": "Expand the capabilities of your solution with NX X Manufacturing Value Based Licensing (25pk).",
+        "price": "₹462,086.09INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Manufacturing Value Based Licensing (50pk)",
+        "description": "Expand the capabilities of your solution with NX X Manufacturing Value Based Licensing (50pk).",
+        "price": "₹923,306.11INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      }
+    ]
+  },
+  {
+    "category": "Design simulation",
+    "products": [
+      {
+        "productName": "NX X Essentials",
+        "description": "Browser-based essential NX CAD, CAM and CAE tools. Create and edit NX data with zero translation.",
+        "price": "₹192,341.09INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      }
+    ]
+  },
+  {
+    "category": "E/E Connectivity",
+    "products": [
+      {
+        "productName": "Capital X Panel Designer Essentials",
+        "description": "An affordable, yet powerful, cloud electrical design tool.",
+        "price": "₹98,808.94INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      }
+    ]
+  },
+  {
+    "category": "Electrical and electronics (E/E) systems",
+    "products": [
+      {
+        "productName": "Capital X Panel Designer Essentials",
+        "description": "An affordable, yet powerful, cloud electrical design tool.",
+        "price": "₹98,808.94INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Capital X Panel Designer Standard",
+        "description": "One subscription, two platforms: On-premises for offline, single-user work, cloud for collaboration.",
+        "price": "₹154,326.04INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      }
+    ]
+  },
+  {
+    "category": "Electronic design automation (EDA)",
+    "products": [
+      {
+        "productName": "PADS Professional App Suite",
+        "description": "For engineers and designers needing an integrated productivity solution to extend PADS Professional.",
+        "price": "₹68,749.35INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      }
+    ]
+  },
+  {
+    "category": "Electronics and board systems (PCB)",
+    "products": [
+      {
+        "productName": "PADS Professional Premium",
+        "description": "PADS Professional’s affordable, end-to-end PCB design solution with integrated cloud applications.",
+        "price": "₹515,009.51INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "PADS Professional Premium DFM",
+        "description": "Everything you get with PADS Professional Premium, with integrated DFM powered by PCBFlow.",
+        "price": "₹559,882.88INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      }
+    ]
+  },
+  {
+    "category": "Manufacturing and factory automation",
+    "products": [
+      {
+        "productName": "Plant Simulation X Advanced",
+        "description": "Model, simulate, explore, analyze and optimize production and logistics at all levels of planning.",
+        "price": "₹2,077,838.22INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Plant Simulation X Essentials",
+        "description": "Create, analyze and optimize 3D simulation models of production systems up to 500 objects in size.",
+        "price": "₹416,611.78INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Plant Simulation X Runtime",
+        "description": "Run simulations created with Plant Simulation X authoring tools to optimize production systems.",
+        "price": "₹207,783.82INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Plant Simulation X Standard",
+        "description": "Create, analyze and optimize 3D simulation models of production systems up to 4000 objects in size.",
+        "price": "₹1,043,095.67INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Plant Simulation X Value Stream Mapping",
+        "description": "Use a dedicated object library to simulate value stream maps in Plant Simulation software models.",
+        "price": "₹312,197.80INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Augmented Reality (DTA)",
+        "description": "Use augmented reality to analyze the alignment of Process Simulate studies to real world twins.",
+        "price": "₹767,442.76INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Automatic Path Planner",
+        "description": "Create collision-free paths automatically for product assembly or disassembly and robotic welding.",
+        "price": "₹770,575.18INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Cables",
+        "description": "Define, simulate and validate cables for robots in a realistic fashion during robot motion planning.",
+        "price": "₹384,243.45INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Essentials",
+        "description": "Model and simulate manufacturing processes in a dynamic 3D environment to enable virtual validation.",
+        "price": "₹2,079,926.50INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Human Advanced",
+        "description": "Use motion capture and virtual reality to conduct in-depth ergonomics analysis of manual workplaces.",
+        "price": "₹3,379,880.56INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Human Standard",
+        "description": "Conduct 3D task simulation and ergonomics analysis to design and optimize human-centered operations.",
+        "price": "₹2,541,436.30INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Point Cloud",
+        "description": "Load and segment point cloud scan data while maintaining visual quality and accuracy for simulation.",
+        "price": "₹769,531.04INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Robotics Advanced",
+        "description": "Leverage a complete virtual commissioning environment to validate the build of workcells and lines.",
+        "price": "₹4,549,317.15INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Robotics Standard",
+        "description": "Download, upload and optimize robotic programs with a complete set of offline programming tools.",
+        "price": "₹3,506,221.48INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Safety Robots Manager",
+        "description": "Design, configure and manage safety zones for robots during a feasibility study in Process Simulate.",
+        "price": "₹363,360.65INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Virtual Reality",
+        "description": "Load Process Simulate studies into virtual reality (VR) environments to conduct process reviews.",
+        "price": "₹433,318.02INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Tecnomatix Connector for NVIDIA Omniverse",
+        "description": "Transfer geometry and simulations from Tecnomatix software into NVIDIA Omniverse.",
+        "price": "₹421,832.48INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      }
+    ]
+  },
+  {
+    "category": "Mechanical design",
+    "products": [
+      {
+        "productName": "NX X Design Advanced",
+        "description": "Boost design efficiency and quality through the enhanced design capabilities in NX X Design Advanced",
+        "price": "₹843,809.38INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Design Premium",
+        "description": "Overcome the most complex design challenges through the advanced capabilities in NX X Design Premium",
+        "price": "₹1,076,972.27INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Design Standard",
+        "description": "Create and edit designs of typical 3D parts and assemblies and more with NX X Design Standard.",
+        "price": "₹649,508.65INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Essentials",
+        "description": "Browser-based essential NX CAD, CAM and CAE tools. Create and edit NX data with zero translation.",
+        "price": "₹192,341.09INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Value Based Licensing (100 count)",
+        "description": "NX X tokens provide a flexible and cost effective solution for running NX X add-on modules.",
+        "price": "₹1,941,396.02INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "NX X Value Based Licensing (50 count)",
+        "description": "NX X tokens provide a flexible and cost effective solution for running NX X add-on modules.",
+        "price": "₹969,469.40INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Siemens Mechanical Design Bundle",
+        "description": "Scale your mechanical design solution and future-proof your business with flexible software.",
+        "price": "₹1,250,764.07INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Solid Edge Design and Drafting XaaS",
+        "description": "Get started quickly with part & assembly design, automated drawings, basic animation and rendering.",
+        "price": "₹92,823.56INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Solid Edge X Advanced",
+        "description": "Solid Edge X Standard + reverse engineering, subdivision modeling & generative design.",
+        "price": "₹261,890.41INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Solid Edge X Premium",
+        "description": "Solid Edge X Advanced + motion & stress simulation, point cloud visualization & electrical routing.",
+        "price": "₹375,344.73INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Solid Edge X Standard",
+        "description": "Design parts and assemblies, create drawings, and design sheet metal parts, frames and weldments.",
+        "price": "₹210,835.96INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Solid Edge X Value-Based Licensing 10 pk",
+        "description": "Extend Solid Edge X capabilities with a 10 pack of tokens, allowing access to add-on applications.",
+        "price": "₹178,995.40INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Solid Edge X Value-Based Licensing 25 pk",
+        "description": "Extend Solid Edge X capabilities with a 25 pack of tokens, allowing access to add-on applications.",
+        "price": "₹447,488.49INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Solid Edge X Value-Based Licensing 50 pk",
+        "description": "Extend Solid Edge X capabilities with a 50 pack of tokens, allowing access to add-on applications.",
+        "price": "₹894,976.98INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      }
+    ]
+  },
+  {
+    "category": "Robotics simulation",
+    "products": [
+      {
+        "productName": "Process Simulate Collaborate",
+        "description": "Visualize, review and analyze Process Simulate studies with innovative cloud-based 3D collaboration.",
+        "price": "₹166,541.21INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Robotics Advanced",
+        "description": "Leverage a complete virtual commissioning environment to validate the build of workcells and lines.",
+        "price": "₹4,549,317.15INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Process Simulate X Robotics Standard",
+        "description": "Download, upload and optimize robotic programs with a complete set of offline programming tools.",
+        "price": "₹3,506,221.48INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      }
+    ]
+  },
+  {
+    "category": "Simulation and test",
+    "products": [
+      {
+        "productName": "Simcenter 3D Structures Essentials",
+        "description": "Achieve faster simulation processes to rapidly improve your design's structural performance.",
+        "price": "₹2,367,022.08INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Simcenter Cloud HPC - 1,000 Credits",
+        "description": "Access Simcenter through a web browser and work without constraints on desktop and HPC environments.",
+        "price": "₹96,593.50INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Simcenter Cloud HPC - 100,000 Credits",
+        "description": "Access Simcenter through a web browser and work without constraints on desktop and HPC environments.",
+        "price": "₹6,800,224.44INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Simcenter Cloud HPC - 50,000 Credits",
+        "description": "Access Simcenter through a web browser and work without constraints on desktop and HPC environments.",
+        "price": "₹3,885,843.98INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "1 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Simcenter Femap Standalone",
+        "description": "Create, edit, and evaluate finite element models of complex products or systems.",
+        "price": "₹1,033,398.16INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Simcenter Femap/Nastran",
+        "description": "Perform basic structural simulation with Simcenter Femap and Simcenter Nastran Basic.",
+        "price": "₹1,411,664.14INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year",
+          "3 Year"
+        ],
+        "defaultQuantity": "1"
+      },
+      {
+        "productName": "Simcenter Femap/Nastran Dynamic Response",
+        "description": "Perform basic structural and dynamic simulation with Simcenter Femap and Simcenter Nastran.",
+        "price": "₹1,712,461.36INR",
+        "priceUnit": "per quantity / per year",
+        "subscriptionOptions": [
+          "Monthly",
+          "1 Year"
+        ],
+        "defaultQuantity": "1"
+      }
+    ]
+  }
+]
