@@ -1,3 +1,11 @@
 .env
 node_modules
 .json
+
+# PDF files
+*.pdf
+pdfs/
+
+# Extracted and parsed data files
+extracted-data-*.json
+parsed-data-*.json
