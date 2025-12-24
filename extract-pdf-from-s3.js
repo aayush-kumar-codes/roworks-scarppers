@@ -4,104 +4,168 @@ import {
   StartDocumentAnalysisCommand,
   GetDocumentAnalysisCommand
 } from "@aws-sdk/client-textract"
-import { writeFile } from "fs/promises"
+import {
+  S3Client,
+  ListObjectsV2Command
+} from "@aws-sdk/client-s3"
+import { MongoClient } from "mongodb"
 
 dotenv.config()
 
+// ---------------- CONFIG ----------------
 const BUCKET_NAME = "roworks-pdf-extract"
-const FILE_KEY =
-  "uploads/ABB-Robotic-product-range-brochure-4pages-2019-9AKK1074920493-RevD.pdf"
+const S3_PREFIX = "uploads/"
+const AWS_REGION = process.env.AWS_REGION
+const MONGO_URI = process.env.MONGO_URI
 
-const textract = new TextractClient({
-  region: process.env.AWS_REGION,
-  credentials: {
-    accessKeyId: process.env.AWS_ACCESS_KEY,
-    secretAccessKey: process.env.AWS_SECRET_KEY
-  }
-})
+const BATCH_SIZE = 3          // 🔥 parallel Textract jobs
+const POLL_INTERVAL = 3000    // ms
 
-async function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms))
+// ---------------- CLIENTS ----------------
+const textract = new TextractClient({ region: AWS_REGION })
+const s3 = new S3Client({ region: AWS_REGION })
+const mongo = new MongoClient(MONGO_URI)
+
+// ---------------- HELPERS ----------------
+const sleep = ms => new Promise(r => setTimeout(r, ms))
+
+const log = {
+  info: msg => console.log(`ℹ️  ${msg}`),
+  success: msg => console.log(`✅ ${msg}`),
+  warn: msg => console.log(`⚠️  ${msg}`),
+  error: msg => console.error(`❌ ${msg}`)
 }
 
-function countTables(blocks) {
-  return blocks.filter(b => b.BlockType === "TABLE").length
+function extractText(blocks) {
+  return blocks
+    .filter(b => b.BlockType === "LINE")
+    .map(b => b.Text)
+    .join("\n")
 }
 
-async function extractPDFAsync() {
-  try {
-    console.log("🚀 Starting async Textract job...")
+// ---------------- LIST PDF FILES ----------------
+async function listPDFFiles() {
+  const command = new ListObjectsV2Command({
+    Bucket: BUCKET_NAME,
+    Prefix: S3_PREFIX
+  })
 
-    const startCommand = new StartDocumentAnalysisCommand({
+  const response = await s3.send(command)
+
+  return (response.Contents || [])
+    .map(obj => obj.Key)
+    .filter(key => key.toLowerCase().endsWith(".pdf"))
+}
+
+// ---------------- TEXTRACT ASYNC ----------------
+async function runTextract(fileKey) {
+  const start = await textract.send(
+    new StartDocumentAnalysisCommand({
       DocumentLocation: {
-        S3Object: {
-          Bucket: BUCKET_NAME,
-          Name: FILE_KEY
-        }
+        S3Object: { Bucket: BUCKET_NAME, Name: fileKey }
       },
       FeatureTypes: ["TABLES", "FORMS"]
     })
+  )
 
-    const startResponse = await textract.send(startCommand)
-    const jobId = startResponse.JobId
+  const jobId = start.JobId
+  let status = "IN_PROGRESS"
+  let result
 
-    console.log("🆔 Job ID:", jobId)
+  while (status === "IN_PROGRESS") {
+    await sleep(POLL_INTERVAL)
 
-    let status = "IN_PROGRESS"
-    let result
+    result = await textract.send(
+      new GetDocumentAnalysisCommand({ JobId: jobId })
+    )
 
-    while (status === "IN_PROGRESS") {
-      await sleep(3000)
+    status = result.JobStatus
+  }
 
-      const getCommand = new GetDocumentAnalysisCommand({
-        JobId: jobId
-      })
+  if (status !== "SUCCEEDED") {
+    throw new Error("Textract failed")
+  }
 
-      result = await textract.send(getCommand)
-      status = result.JobStatus
+  return result
+}
 
-      console.log("⏳ Job status:", status)
-    }
+// ---------------- PROCESS SINGLE PDF ----------------
+async function processPDF(fileKey, collection) {
+  const fileName = fileKey.split("/").pop()
 
-    if (status !== "SUCCEEDED") {
-      throw new Error("Textract job failed")
-    }
+  const exists = await collection.findOne({ fileName })
+  if (exists) {
+    log.warn(`Skipped (already done): ${fileName}`)
+    return
+  }
 
-    const extractedText = result.Blocks
-      .filter(b => b.BlockType === "LINE")
-      .map(b => b.Text)
-      .join("\n")
+  log.info(`Processing: ${fileName}`)
 
-    const tableCount = countTables(result.Blocks)
+  const result = await runTextract(fileKey)
+  const text = extractText(result.Blocks)
 
-    // Create JSON data structure
-    const jsonData = {
-      metadata: {
-        totalPages: result.DocumentMetadata.Pages,
-        tablesFound: tableCount,
-        blocksReturned: result.Blocks.length,
-        bucket: BUCKET_NAME,
-        fileKey: FILE_KEY,
-        jobId: jobId,
-        extractedAt: new Date().toISOString()
-      },
-      extractedText: extractedText
-    }
+  await collection.insertOne({
+    fileName,
+    s3Key: fileKey,
+    bucket: BUCKET_NAME,
+    pages: result.DocumentMetadata.Pages,
+    extractedText: text,
+    createdAt: new Date()
+  })
 
-    // Save to JSON file
-    const timestamp = Date.now()
-    const filename = `extracted-data-${timestamp}.json`
+  log.success(`Saved: ${fileName}`)
+}
 
-    await writeFile(filename, JSON.stringify(jsonData, null, 2), "utf-8")
+// ---------------- BATCH PROCESSOR ----------------
+async function processInBatches(files, collection) {
+  for (let i = 0; i < files.length; i += BATCH_SIZE) {
+    const batch = files.slice(i, i + BATCH_SIZE)
 
-    console.log(`\n✅ Data saved to: ${filename}`)
-    console.log(`\n================ METADATA ================\n`)
-    console.log(`Total pages    : ${jsonData.metadata.totalPages}`)
-    console.log(`Tables found   : ${jsonData.metadata.tablesFound}`)
-    console.log(`Blocks returned: ${jsonData.metadata.blocksReturned}`)
-  } catch (err) {
-    console.error("❌ Async Textract failed:", err.message)
+    log.info(
+      `Batch ${Math.floor(i / BATCH_SIZE) + 1} → ${batch.length} file(s)`
+    )
+
+    await Promise.allSettled(
+      batch.map(fileKey =>
+        processPDF(fileKey, collection).catch(err =>
+          log.error(`${fileKey} → ${err.message}`)
+        )
+      )
+    )
   }
 }
 
-extractPDFAsync()
+// ---------------- MAIN ----------------
+async function ingestAllPDFs() {
+  // MongoDB connection must succeed before any PDF processing
+  try {
+    log.info("Connecting to MongoDB...")
+    await mongo.connect()
+    
+    // Verify connection by pinging the database
+    await mongo.db("admin").command({ ping: 1 })
+    log.success("MongoDB connected")
+  } catch (err) {
+    log.error(`Failed to connect to MongoDB: ${err.message}`)
+    log.error("Exiting: Cannot process PDFs without MongoDB connection")
+    process.exit(1)
+  }
+
+  // Only proceed if MongoDB connection is successful
+  const db = mongo.db("inggestData")
+  const collection = db.collection("pdfExtracts")
+
+  const pdfFiles = await listPDFFiles()
+  log.info(`Found ${pdfFiles.length} PDF(s) in S3`)
+
+  await processInBatches(pdfFiles, collection)
+
+  await mongo.close()
+  log.success("All PDFs processed")
+}
+
+// ---------------- RUN ----------------
+ingestAllPDFs().catch(err => {
+  log.error(`Fatal error: ${err.message}`)
+  process.exit(1)
+})

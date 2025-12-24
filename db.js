@@ -1,6 +1,6 @@
 import { MongoClient } from "mongodb";
 
-const url = "mongodb://127.0.0.1:27017";
+const url = "mongodb://35.169.142.73:27017";
 const client = new MongoClient(url);
 
 let db;
@@ -10,6 +10,7 @@ export async function connectDB() {
   db = client.db("robotsDB");
   console.log("MongoDB connected");
 }
+
 
 export function getDB() {
   return db;
