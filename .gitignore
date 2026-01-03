@@ -8,3 +8,7 @@ pdfs/
 # Extracted and parsed data files
 extracted-data-*.json
 parsed-data-*.json
+
+# Python files
+*.py
+venv/

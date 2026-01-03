@@ -8,8 +8,10 @@ import {
 } from "@aws-sdk/client-textract"
 import {
   S3Client,
-  ListObjectsV2Command
+  ListObjectsV2Command,
+  GetObjectCommand
 } from "@aws-sdk/client-s3"
+import { getSignedUrl } from "@aws-sdk/s3-request-presigner"
 import { MongoClient } from "mongodb"
 
 dotenv.config()
@@ -80,6 +82,15 @@ function extractText(blocks) {
     .filter(b => b.BlockType === "LINE")
     .map(b => b.Text)
     .join("\n")
+}
+
+async function getS3PresignedUrl(s3Client, bucket, key) {
+  // Generate a presigned URL valid for 7 days (604800 seconds)
+  const command = new GetObjectCommand({
+    Bucket: bucket,
+    Key: key
+  })
+  return await getSignedUrl(s3Client, command, { expiresIn: 604800 })
 }
 
 // ---------------- MANIFEST INGESTION LOGIC ----------------
@@ -205,9 +216,12 @@ async function processPDF(fileKey, collection) {
 
   const normalizedBOM = ingestUsingManifest(text)
 
+  const s3Link = await getS3PresignedUrl(s3, BUCKET_NAME, fileKey)
+
   await collection.insertOne({
     fileName,
     s3Key: fileKey,
+    s3Link,
     bucket: BUCKET_NAME,
     pages: result.DocumentMetadata.Pages,
     extractedText: text,
