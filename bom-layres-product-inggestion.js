@@ -682,6 +682,7 @@ async function processPDF(fileKey, pdfCollection, productCollection) {
           product_type: product.product_type || null,
           sub_type: product.sub_type || null,
           price: price,
+          si: "registered",
           s3Key: fileKey,
           s3Link: s3Link,
           source_refs: [{
@@ -743,6 +744,37 @@ async function processPDF(fileKey, pdfCollection, productCollection) {
   }
 }
 
+// ---------------- MIGRATION: ADD SI FIELD ----------------
+async function migrateSIField(productCollection) {
+  try {
+    log.info("Checking for products missing 'si' field...")
+    
+    // Find products where si field is missing or null
+    const result = await productCollection.updateMany(
+      {
+        $or: [
+          { si: { $exists: false } },
+          { si: null }
+        ]
+      },
+      {
+        $set: { si: "registered" }
+      }
+    )
+    
+    if (result.modifiedCount > 0) {
+      log.success(`Migration complete: Updated ${result.modifiedCount} product(s) with si: "registered"`)
+    } else {
+      log.info("Migration check: All products already have 'si' field")
+    }
+    
+    return result.modifiedCount
+  } catch (error) {
+    log.error(`Migration error: ${error.message}`)
+    throw error
+  }
+}
+
 // ---------------- BATCH PROCESSOR ----------------
 async function processInBatches(files, pdfCollection, productCollection) {
   let totalProcessed = 0
@@ -796,6 +828,9 @@ async function ingestAllPDFs() {
   const db = mongo.db("inggestData")
   const pdfCollection = db.collection("pdfExtracts")
   const productCollection = db.collection("products")
+
+  // Run migration to add si field to existing products
+  await migrateSIField(productCollection)
 
   const pdfFiles = await listPDFFiles()
   log.info(`Found ${pdfFiles.length} PDF(s) in S3`)

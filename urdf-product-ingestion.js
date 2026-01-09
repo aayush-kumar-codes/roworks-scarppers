@@ -418,6 +418,37 @@ function normalizeProductData(product) {
   }
 }
 
+// ---------------- MIGRATION: ADD SI FIELD ----------------
+async function migrateSIField(productCollection) {
+  try {
+    log.info("Checking for products missing 'si' field...")
+    
+    // Find products where si field is missing or null
+    const result = await productCollection.updateMany(
+      {
+        $or: [
+          { si: { $exists: false } },
+          { si: null }
+        ]
+      },
+      {
+        $set: { si: "registered" }
+      }
+    )
+    
+    if (result.modifiedCount > 0) {
+      log.success(`Migration complete: Updated ${result.modifiedCount} product(s) with si: "registered"`)
+    } else {
+      log.info("Migration check: All products already have 'si' field")
+    }
+    
+    return result.modifiedCount
+  } catch (error) {
+    log.error(`Migration error: ${error.message}`)
+    throw error
+  }
+}
+
 // ---------------- DUPLICATE CHECKING ----------------
 async function checkDuplicate(productCollection, product) {
   try {
@@ -450,7 +481,8 @@ async function upsertProduct(productCollection, productDoc) {
           // Only update fields that are provided and not null
           ...(productDoc.product_type && { product_type: productDoc.product_type }),
           ...(productDoc.sub_type && { sub_type: productDoc.sub_type }),
-          ...(productDoc.price !== null && productDoc.price !== undefined && { price: productDoc.price })
+          ...(productDoc.price !== null && productDoc.price !== undefined && { price: productDoc.price }),
+          ...(productDoc.si && { si: productDoc.si })
         },
         // Add to source_refs array if not already present
         $addToSet: {
@@ -588,6 +620,7 @@ async function processURDF(filePath, urdfCollection, productCollection) {
           product_type: product.product_type || null,
           sub_type: product.sub_type || null,
           price: product.price || null,
+          si: "registered",
           s3Key: null, // URDF files are local
           s3Link: null,
           source_refs: [{
@@ -706,6 +739,9 @@ async function ingestAllURDFs() {
   const db = mongo.db("inggestData")
   const urdfCollection = db.collection("urdfExtracts")
   const productCollection = db.collection("products")
+
+  // Run migration to add si field to existing products
+  await migrateSIField(productCollection)
 
   const urdfFiles = listURDFFiles()
   log.info(`Found ${urdfFiles.length} URDF file(s) in ${URDF_FOLDER}`)
